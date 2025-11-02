@@ -1,0 +1,10 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ColumnLimit: 0          # Desabilita a limitação de coluna, evitando quebras de linha
+AllowShortBlocksOnASingleLine: true  # Permite blocos curtos em uma única linha
+AllowShortCaseLabelsOnASingleLine: true  # Permite rótulos de case curtos em uma única linha
+AllowShortFunctionsOnASingleLine: true  # Permite funções curtas em uma única linha
+BreakBeforeBraces: Attach # Coloca chaves na mesma linha (por exemplo, em funções e condicionais)
+SpacesBeforeTrailingComments: 1 # Adiciona um espaço antes de comentários finais
